@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-%3E%3D3.9-blue)](https://python.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/pawanxa/vbx-tool/pulls)
 
-`vbx-tool` is a comprehensive utility framework designed to train AI models effectively — covering dataset preparation, pipeline orchestration, experiment tracking, evaluation, and deployment-ready model export. It reduces the operational overhead of AI/ML training workflows so teams can focus on model quality instead of infrastructure plumbing.
+`vbx-tool` is a comprehensive utility framework designed to train AI models effectively covering dataset preparation, pipeline orchestration, experiment tracking, evaluation, and deployment-ready model export. It reduces the operational overhead of AI/ML training workflows so teams can focus on model quality instead of infrastructure plumbing.
 
 ## Table of Contents
 
@@ -91,26 +91,26 @@
 ## Architecture
 
 ```text
-                ┌─────────────────┐
+                ┌──────────────────┐
                 │   Raw Dataset    │
                 └────────┬─────────┘
                          │
-                ┌────────▼─────────┐
+                ┌────────▼──────────┐
                 │  Data Validator   │
                 │  & Preprocessor   │
-                └────────┬─────────┘
+                └────────┬──────────┘
                          │
-                ┌────────▼─────────┐
-                │  Training Engine  │◄──── config.json / config.yaml
+                ┌────────▼───────────┐
+                │  Training Engine   │ ◄──── config.json / config.yaml
                 │  (Backend Adapter) │
-                └────────┬─────────┘
+                └────────┬───────────┘
                          │
           ┌──────────────┼──────────────┐
           ▼              ▼              ▼
-   ┌────────────┐ ┌────────────┐ ┌────────────┐
+   ┌────────────┐ ┌────────────┐ ┌─────────────┐
    │ Checkpoints│ │  Metrics/  │ │   Model     │
    │            │ │   Logs     │ │   Export    │
-   └────────────┘ └────────────┘ └────────────┘
+   └────────────┘ └────────────┘ └─────────────┘
 ```
 
 ## Installation
