@@ -33,7 +33,7 @@
 
 `vbx-tool` sits between raw data and a trained, production-ready model. It standardizes the messy parts of AI training — data validation, config management, checkpointing, evaluation, and reporting — into a single reusable toolchain that works across model types and training backends.
 
-## Key Features
+## Key Features 
 
 - **Unified Training Pipeline**: Single entry point for data prep, training, validation, and export
 - **Config-Driven Execution**: JSON/YAML configs eliminate hardcoded parameters across runs
