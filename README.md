@@ -310,4 +310,4 @@ QA Automation Engineer / Software Developer
 
 ---
 
-*vbx-tool — engineered to make AI model training structured, repeatable, and production-ready.*
+*vbx-tool: engineered to make AI model training structured, repeatable, and production-ready.*
