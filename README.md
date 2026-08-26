@@ -31,7 +31,7 @@
 
 ## Overview
 
-`vbx-tool` sits between raw data and a trained, production-ready model. It standardizes the messy parts of AI training data validation, config management, checkpointing, evaluation, and reporting — into a single reusable toolchain that works across model types and training backends.
+`vbx-tool` sits between raw data and a trained, production-ready model. It standardizes the messy parts of AI training data validation, config management, checkpointing, evaluation, and reporting into a single reusable toolchain that works across model types and training backends.
 
 ## Key Features 
 
