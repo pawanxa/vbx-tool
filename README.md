@@ -182,7 +182,7 @@ vbx-tool export --model results/model_v1 --format onnx
   "validationSplit": 0.2,
   "earlyStopping": {
     "enabled": true,
-    "patience": 3,
+    "patience": 4,
     "metric": "val_loss"
   },
   "checkpoint": {
