@@ -187,7 +187,7 @@ vbx-tool export --model results/model_v1 --format onnx
   },
   "checkpoint": {
     "enabled": true,
-    "saveEvery": 1,
+    "saveEvery": 2,
     "outputDir": "checkpoints/"
   },
   "outputDir": "results/"
