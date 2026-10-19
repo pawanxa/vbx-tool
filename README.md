@@ -35,7 +35,7 @@
 
 ## Key Features 
 
-- **Unified Training Pipeline**: Single entry point for data prep, training, validation, and export
+- **Unified Training Pipeline**: Single entry point for data prep, training, validation, and export.
 - **Config-Driven Execution**: JSON/YAML configs eliminate hardcoded parameters across runs
 - **Multi-Backend Support**: Works with PyTorch, TensorFlow, or custom training loops via adapters
 - **Dataset Validation**: Detects schema mismatches, class imbalance, and corrupted samples before training starts
